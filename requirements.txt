@@ -1,0 +1,8 @@
+mkdocs
+mkdocs-cinder
+cookiecutter
+pytest
+pandas
+numpy
+jupyter
+re
