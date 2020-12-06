@@ -1,7 +1,10 @@
-import pandas as pd
-import numpy as np
-import math
+""" Puzzle for day4 advent of code 2020
+"""
+# import math
 import re
+# import pandas as pd
+# import numpy as np
+
 
 filename = '../data/data.txt'
 with open(filename) as fn:

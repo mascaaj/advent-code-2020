@@ -1,6 +1,9 @@
-import pandas as pd
-import numpy as np
-import math
+""" Puzzle for day4 advent of code 2020
+"""
+# import math
+# import pandas as pd
+# import numpy as np
+
 
 #solving this with string processing.
 filename = '../data/data.txt'
