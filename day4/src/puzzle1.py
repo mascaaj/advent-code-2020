@@ -30,13 +30,13 @@ with open(filename) as fn:
         # Print line value.
         print("Line {}: {}".format(lncnt, ln.strip()))
         # If not newline, enter the loop
-        if (x[0]=="\n")==False:
+        if not x[0]=="\n":
             #Iterate till nextline
             counter=counter+1
             if counter!=0:
                 #Split into bins.
-                for i in range(0,len(x)):
-                    b = x[i].split(":")
+                for i in enumerate(x):
+                    b = x[i[0]].split(":")
                     if b[0] == "byr":
                         byr_flag=byr_flag+1
                     elif b[0] == "iyr":

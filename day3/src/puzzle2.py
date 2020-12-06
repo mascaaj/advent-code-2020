@@ -18,11 +18,11 @@ row_offset = [1,1,1,1,2]
 prod_flag = 1
 
 # Data Checker
-for i in range(0,len(col_offset)) :
+for i in enumerate(col_offset) :
     newcheck=0
     flag=0
     count=-1
-    newcheck=newcheck + col_offset[i] + (row_offset[i]*rowlength)
+    newcheck=newcheck + col_offset[i[0]] + (row_offset[i[0]]*rowlength)
     for row in range(0,rows):
         a = df.iloc[row,1]
     #     print(row)
@@ -30,7 +30,7 @@ for i in range(0,len(col_offset)) :
             count=count+1
     #         print(l,count, newcheck)
             if newcheck == count:
-                newcheck=newcheck + col_offset[i] + (row_offset[i]*rowlength)
+                newcheck=newcheck + col_offset[i[0]] + (row_offset[i[0]]*rowlength)
                 if l == '#':
                     flag = flag +1
 
