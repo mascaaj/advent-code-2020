@@ -1,7 +1,10 @@
-import pandas as pd
-import numpy as np
-import math
+""" Puzzle for day4 advent of code 2020
+"""
+# import math
 import re
+# import pandas as pd
+# import numpy as np
+
 
 filename = '../data/data.txt'
 with open(filename) as fn:
@@ -28,14 +31,17 @@ with open(filename) as fn:
         # print(x[0]=="\n")
         # print("Line {}: {}".format(lncnt, ln.strip()))
         # If not newline, enter the loop
-        if (x[0]=="\n")==False:
+        if not x[0]=="\n":
             #Iterate till nextline
             counter=counter+1
             # print(counter)
             if counter!=0:
                 # Split into bins.
-                for i in range(0,len(x)):
-                    b = x[i].split(":")
+                # length = len(x)
+                # print(ben)
+                for i in enumerate(x):
+                    # print(i[0])
+                    b = x[i[0]].split(":")
                     # print(b[0])
                     if b[0] == "byr":
                         # print("condition test",b[1],int(b[1])>=1920 and int(b[1])<=2002)

@@ -1,6 +1,6 @@
-import numpy as np
+""" Puzzle for day3 advent of code 2020
+"""
 import pandas as pd
-import math
 
 # Read in data using pandas
 colnames=['data']

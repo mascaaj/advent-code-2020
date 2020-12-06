@@ -1,8 +1,9 @@
+""" Puzzle for day5 advent of code 2020
+"""
+
 # Puzzle 1 for advent of code 2020
-import numpy as np
 import pandas as pd
-import math
-import re
+
 
 #Read file using pandas, assign rowlength
 path = "../data/data.txt"
@@ -23,10 +24,8 @@ for row in range(0, datRows):
     for i in seatCode[0:6]:
         interval = round((max_lim-min_lim)/2,0)
         if i == 'F':
-            min_lim=min_lim
             max_lim=max_lim-interval
         else:
-            max_lim=max_lim
             min_lim=min_lim+interval
 #             print("count:{},min_lim: {},max_lim: {}".format(i,min_lim, max_lim))
 #   Final Arbitration for row number
@@ -39,10 +38,10 @@ for row in range(0, datRows):
 #         print(j)
         seat_interval = round((max_seat-min_seat)/2,0)
         if j == 'L':
-            min_seat=min_seat
+            # min_seat=min_seat
             max_seat=max_seat-seat_interval
         else:
-            max_seat=max_seat
+            # max_seat=max_seat
             min_seat=min_seat+seat_interval
 #         print("count:{},min_lim: {},max_lim: {}".format(j,min_seat, max_seat))
     if seatCode[9]=="L":

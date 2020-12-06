@@ -1,5 +1,6 @@
+""" Puzzle for day2 advent of code 2020
+"""
 import pandas as pd
-import numpy as np
 
 #Read in data using pandas
 colnames=['min_limits', 'constraint', 'pwd']
