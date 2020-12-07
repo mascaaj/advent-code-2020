@@ -22,4 +22,4 @@ jobs:
         pylint `find . -path ./cookiecutter -prune -false -o -name "*.py"` --rcfile=.pylintrc
     - name: Testing code with pytest
       run: |
-        pytest
+        pytest --ignore=cookiecutter/\{\{\ cookiecutter.repo_name\ \}\}/src/test_code.py
