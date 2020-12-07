@@ -2,11 +2,14 @@
 """
 
 filename = '../data/data.txt'
+import numpy as np
 
 # Define functions
 def histogram(word):
     """ Function to calculate histogram of letters in word
     """
+    if not isinstance(word,str):
+        raise TypeError("Please provide a string")
     dictionary = dict()
     for alphabet in word:
         if alphabet not in dictionary:
