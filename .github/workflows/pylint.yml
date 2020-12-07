@@ -20,3 +20,6 @@ jobs:
     - name: Analysing the code with pylint
       run: |
         pylint `find . -path ./cookiecutter -prune -false -o -name "*.py"` --rcfile=.pylintrc
+    - name: Testing code with pytest
+      run: |
+        pytest
