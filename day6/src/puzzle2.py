@@ -2,8 +2,6 @@
 """
 import numpy as np
 
-
-
 # Define functions
 def histogram(word):
     """ Function to calculate histogram of letters in word
@@ -26,10 +24,6 @@ def hist_val_check(hist,val,normalizer):
     occurance_count = np.count_nonzero(normalize == val)
     return occurance_count
 
-
-def test_hist_val_check():
-    hist = histogram("macuziywlbapodgevujnskptruz")
-    assert hist_val_check(hist,1,3) == 1
 
 if __name__ == "__main__":
     filename = '../data/data.txt'

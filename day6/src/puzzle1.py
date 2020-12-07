@@ -2,7 +2,6 @@
 """
 
 filename = '../data/data.txt'
-import numpy as np
 
 # Define functions
 def histogram(word):
