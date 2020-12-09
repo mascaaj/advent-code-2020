@@ -1,22 +1,24 @@
 """
 Day X puzzle unit Testing
 """
-from dayX.src.puzzle2 import xyz, abc
 
-def test_xyz():
-    """
-    Day X puzzle unit Testing
-    """
-    expected = [1, 3, 1]
-    actual = [1, 3, 1]
-    print(actual)
-    assert len(expected) == len(actual)
-    assert all([a == b for a, b in zip(actual, expected)])
-    print(all([a == b for a, b in zip(actual, expected)]))
-
-def test_abc():
-    """
-    Day X puzzle unit Testing
-    """
-
-    assert
+# attempt at using dataframe to test function. needs to use datatest
+# will return after solving puzzle 2
+# from day7.src.puzzle1 import split_string_col
+# import pandas as pd
+#
+#
+# def test_xyz():
+#
+#     data = {'content1':  ['1 bright white bag', '3 bright white bags']}
+#     df = pd.DataFrame (data, columns = ['content1'])
+#     print (df)
+#     df2 = split_string_col(df,content1,1)
+#     assert df2.shape() == [1,2]
+#
+# def test_abc():
+#     """
+#     Day X puzzle unit Testing
+#     """
+#
+#     assert
