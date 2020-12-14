@@ -5,6 +5,6 @@ Advent of Code : day12
 
 Puzzles
 ------------
-Puzzle 1 statement here <- Solved
+Figure out where the navigation instructions lead. What is the Manhattan distance between that location and the ship's starting position? <- Solved
 
-Puzzle 2 statement here <- Unsolved
+Figure out where the navigation instructions actually lead. What is the Manhattan distance between that location and the ship's starting position? <- Unsolved
