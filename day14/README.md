@@ -5,6 +5,6 @@ Advent of Code : day14
 
 Puzzles
 ------------
-Puzzle 1 statement here <- Solved
+Execute the initialization program. What is the sum of all values left in memory after it completes? <- unsolved
 
 Puzzle 2 statement here <- Unsolved
