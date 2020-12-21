@@ -1,8 +1,3 @@
-    byr (Birth Year)
-    iyr (Issue Year)
-    eyr (Expiration Year)
-    hgt (Height)
-    hcl (Hair Color)
-    ecl (Eye Color)
-    pid (Passport ID)
-    cid (Country ID)
+
+If that was the first time the number has been spoken, the current player says 0.
+Otherwise, the number had been spoken before; the current player announces how many turns apart the number is from when it was previously spoken.

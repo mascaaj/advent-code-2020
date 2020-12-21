@@ -5,6 +5,6 @@ Advent of Code : day15
 
 Puzzles
 ------------
-Puzzle 1 statement here <- Solved
+Given your starting numbers, what will be the 2020th number spoken? <- Unsolved
 
 Puzzle 2 statement here <- Unsolved

@@ -5,6 +5,6 @@ Advent of Code : day16
 
 Puzzles
 ------------
-Puzzle 1 statement here <- Solved
+Consider the validity of the nearby tickets you scanned. What is your ticket scanning error rate <- Unsolved
 
 Puzzle 2 statement here <- Unsolved
